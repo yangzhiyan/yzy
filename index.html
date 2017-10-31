@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<title>test</title>
+		<script type="text/javascript">
+			function test(){
+				//alert(111);
+				/*
+				var div3=document.getElementById("div1");
+				//div1.style.backgroundColor="blue";
+				div3.innerText="hrllo";
+				div3.style.color="red";
+				div3.style.fontSize="80px";
+				alert(Math.pow(2,5));
+				*/
+				
+				function foo(n){
+					if(n<=2){
+						return n;
+						return foo(n-1)+foo(n-2);
+					}
+					
+				}
+				alert(foo(6));
+			}
+		</script>
+		
+	</head>
+	<body>
+		<div id="div1" style="width:100px;height:60px;background-color:pink"><p id="div3" style="color:red;font-size:80px;">hao<p></div>
+		<input type="button" value="button" onclick="test()" id="box1">
+		<div id="div2" style="width:200px;height:150px;background-color:yellow">hello</div>
+	</body>
+
+</html>
+
